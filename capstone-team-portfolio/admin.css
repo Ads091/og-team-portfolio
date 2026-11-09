@@ -1,0 +1,7 @@
+.ctp-admin-overview { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 4px 0 15px; }
+.ctp-admin-overview > div { padding: 15px; background: #f4f8fb; border: 1px solid #dce7ef; border-radius: 10px; }
+.ctp-admin-overview strong, .ctp-admin-overview span { display: block; }
+.ctp-admin-overview strong { color: #102b43; font-size: 28px; line-height: 1.2; }
+.ctp-admin-overview span { margin-top: 4px; color: #53677b; font-size: 11px; }
+.ctp-admin-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+@media (max-width: 600px) { .ctp-admin-overview { grid-template-columns: 1fr; } }
